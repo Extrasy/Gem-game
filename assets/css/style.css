@@ -1,0 +1,9 @@
+body {
+    background-color: #eee;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    color: black;
+    background: url('../images/wov.png') no-repeat;
+    background-size: cover;
+    
+}
