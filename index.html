@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Turn-based game</title>
+        <link rel="stylesheet" href="../bootstrap.min.css">
+
+  <!-- JQuery -->
+  <script src="../jquery-3.3.1.min.js"></script>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+            <h2>Gem Counter!</h2><br>
+            <div class="row">
+                <p style="text-align: center">Try your fortune! Open a bag to get a gem. Each bag has a different type of unknown gem. Match my value and they are all yours! </p>
+            </div>
+                <div class="row">
+                
+                <div class="col-sm-3" style="font-size: 30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                    Value to match-
+                </div>
+                <div id = "number-to-guess" class="col-sm-3" style="font-size: 40px; font-family: fantasy;">
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2" style="font-size: 30px; font-family: fantasy;">
+                    Your gems 
+                </div>
+            <div id = "current-score" class="col-sm-2" style="font-size: 50px; font-family: fantasy;">
+                    -
+                </div>
+                <div id="crystals">
+                </div>
+            </div>
+            <div class="row">
+                    <div id = "wins" class="col-sm-2"></div>
+                    <div id = "losses" class="col-sm-2"></div>
+                </div>
+
+        </div>
+
+
+        
+        <script src="assets/javascript/game.js" async defer></script>
+    </body>
+</html>
