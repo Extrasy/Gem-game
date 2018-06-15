@@ -27,7 +27,7 @@ console.log(targetNumber);
     imageCrystal.addClass("crystal-image");
 
     // Each imageCrystal will be given a src link to the crystal image
-    imageCrystal.attr("src", "C:/Users/luisa/gitlab/UCBER201805FSF2-Class-Repository-FSF/Unit-4-game/assets/images/bag.png");
+    imageCrystal.attr("src", "../images/bag.png");
 
     // Each imageCrystal will be given a data attribute called data-crystalValue.
     // This data attribute will be set equal to the array value.
