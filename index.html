@@ -8,6 +8,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Turn-based game</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
 
   <!-- JQuery -->
   <meta name="description" content="">
@@ -18,9 +22,10 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div id="header"></div><br><br>
         
         <div class="container">
-            <h2>Gem Counter!</h2><br>
+            <div><img src="assets/images/title.png"></div><br>
             <div class="row">
                 <p style="text-align: center">Try your fortune! Open a bag to get a gem. Each bag has a different type of unknown gem. Match my value and they are all yours! </p>
             </div>
@@ -29,15 +34,15 @@
                     <div class="col-sm-3" style="font-size: 30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                     Value to match-
                 </div>
-                <div id = "number-to-guess" class="col-sm-3" style="font-size: 40px; font-family: fantasy;">
+                <div id = "number-to-guess" class="col-sm-3" style="font-size: 50px; font-family: fantasy; color: rgb(218, 0, 0);">
                     
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-2" style="font-size: 30px; font-family: fantasy;">
+                <div class="col-sm-2" style="font-size: 30px; font-family: fantasy; ">
                     Your gems 
                 </div>
-                <div id = "current-score" class="col-sm-2" style="font-size: 50px; font-family: fantasy;">
+                <div id = "current-score" class="col-sm-2" style="font-size: 50px; font-family: fantasy; color: forestgreen;">
                     -
                 </div>
                 <div id="crystals">
@@ -49,10 +54,13 @@
             </div>
             
         </div>
+
+        <div id="footer"></div>
         
         
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="../jquery-3.3.1.min.js"></script>
         <script src="assets/javascript/game.js" async defer></script>
     </body>
     </html>
