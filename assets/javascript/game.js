@@ -3,19 +3,15 @@ console.log(targetNumber);
 
   $("#number-to-guess").text(targetNumber);
   
-
-  var counter = 0;
+  
   var win = 0;
   var loss = 0;
 
-  
 
-  
 
-  
+  var counter = 0;
+
   var numberOptions = [1, 1, 1, 1]
-
-  
   
   for (var i = 0; i < numberOptions.length; i++) {
       amount = Math.floor(Math.random() * 12) + 1;
@@ -31,14 +27,15 @@ console.log(targetNumber);
     imageCrystal.addClass("crystal-image");
 
    
-    imageCrystal.attr("src", "https://raw.githubusercontent.com/Extrasy/Unit-4-game/master/assets/images/Bag.png");
+    imageCrystal.attr("src", "../Unit-4-game/assets/images/Bag.png");
 
     
     imageCrystal.attr("data-crystalvalue", amount);
 
     
     $("#crystals").append(imageCrystal);
-  }
+  };
+
 
   
   $(".crystal-image").on("click", function() {
