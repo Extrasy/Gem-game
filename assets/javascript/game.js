@@ -27,7 +27,7 @@ console.log(targetNumber);
     imageCrystal.addClass("crystal-image");
 
    
-    imageCrystal.attr("src", "../images/Bag.png");
+    imageCrystal.attr("src", "../Gem-game/assets/images/Bag.png");
 
     
     imageCrystal.attr("data-crystalvalue", amount);
